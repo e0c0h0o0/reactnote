@@ -1,0 +1,28 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>1_函数式组件</title>
+</head>
+<body>
+    <!--准备一个容器-->
+    <div id = "test"></div>
+    <!--引入react核心库-->
+<script type="text/javascript" src="../js/react.development.is"></script>
+<!--引入react-dom，用于支持react操作DOM-->
+<script type="text/javascript" src="../js/react-dom.development.is"></script>
+<!-- 引入babel，用于将jsx转为js-->
+<script types"text/javascript" src="…./js/babel.min.js"></script>
+    <script type="text/babel">
+        //1.创建函数式组件
+        function Mycomponent(){
+            return<h2>我是函数式组件</h2>
+        }
+        //2.渲染该组件到页面
+        ReactDom.render(Mycomponent,document.getElementById('test'));
+        
+</script>
+    
+</body>
+</html>
